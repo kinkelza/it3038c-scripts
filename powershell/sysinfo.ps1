@@ -2,9 +2,13 @@
     (get-netipaddress).ipv4address | Select-String "192*"
 }
 
-write-host(getIP)
-
 $IP = getIP
+$USER = $env:USERNAME
+$HOST2 =  $env:COMPUTERNAME
+$VERSION = $PSVersionTable.PSVersion
+$DATE = Get-Date -DisplayHint Date
 
-Write-Host("This machine's IP is $IP")
-Write-Host("This machine's IP is {0}" -f $IP)
+$BODY = "This machine's IP is $IP, User is $USER, Host is $HOST2, Powershell Version is $VERSION, Today Is $DATE"
+
+
+Write-Host($BODY)
