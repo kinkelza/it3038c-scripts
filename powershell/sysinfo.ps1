@@ -11,7 +11,7 @@ $DATE = Get-Date -Format "MM-dd-yyyy"
 $BODY = "This machine's IP is $IP, User is $USER, Host is $HOST2, Powershell Version is $VERSION, Today Is $DATE"
 
 
-# Write-Host($BODY)
-Send-MailMessage -To "leonardf@ucmail.uc.edu" -From "zkinkelaar@gmail.com" -Subject "IT3038C Windows SysInfo" -Body $BODY -SmtpServer smtp.gmail.com -port 587 -UseSSL -Credential (Get-Credential)
+Write-Host($BODY)
+#Send-MailMessage -To "leonardf@ucmail.uc.edu" -From "zkinkelaar@gmail.com" -Subject "IT3038C Windows SysInfo" -Body $BODY -SmtpServer smtp.gmail.com -port 587 -UseSSL -Credential (Get-Credential)
 
 
