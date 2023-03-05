@@ -1,0 +1,13 @@
+In this lab, i have created 3 different ways to use Pillow with examples in python.
+
+To install pillow, you need to have pip installed and then do pip install pillow.
+
+
+Example 1: 
+This exampple shows how to rotate an image and then opens the outcome in a seperate window on your system
+
+Example 2:
+This Example shows how to draw a line accross an image. This shows how pillow can be used to add ontop of an image, with any cordinate, you can change this to any shape
+
+Example 3:
+This example shows that you can get the size of an image and how an image is parsed into 2 numbers. You can take this to find how many pixels exist in a single image
