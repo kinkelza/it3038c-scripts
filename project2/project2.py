@@ -18,7 +18,7 @@ while (True):
     # Subtraction - can handle any amount
     elif Type == "-":
         print("You Chose Subtraction")
-        numbercount = int(input("How many Numbers are you Using??"))
+        numbercount = int(input("How many Numbers are you Using?"))
         count = int(0)
         answer = int(0)
         answer = answer + float(input("Please enter the number"))
@@ -34,7 +34,7 @@ while (True):
     #multiply - can handle any amount
     elif Type == "*":
         print("You Chose Multiplication")
-        numbercount = int(input("How many Numbers are you Using??"))
+        numbercount = int(input("How many Numbers are you Using?"))
         count = int(0)
         answer = int(0)
         answer = answer + float(input("Please enter the number"))
@@ -49,7 +49,7 @@ while (True):
         break;
     #division - can handle any amount
     elif Type == "/":
-        numbercount = int(input("How many Numbers are you Using??"))
+        numbercount = int(input("How many Numbers are you Using?"))
         count = int(0)
         answer = int(0)
         answer = answer + float(input("Please enter the number"))
